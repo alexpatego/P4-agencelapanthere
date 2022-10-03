@@ -1384,13 +1384,11 @@ th {
 }
 
 html {
-    font-size: 10px;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
     line-height: 1.42857143;
     color: #333;
     background-color: #fff
@@ -1406,7 +1404,7 @@ textarea {
 }
 
 a {
-    color: #337ab7;
+    color: #FFFFFF;
     text-decoration: none
 }
 
@@ -1437,7 +1435,8 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
+    margin: auto;
 }
 
 .img-rounded {
@@ -1509,7 +1508,6 @@ h6 {
     font-family: inherit;
     font-weight: 500;
     line-height: 1.1;
-    color: inherit
 }
 
 .h1 .small,
@@ -3225,7 +3223,7 @@ input[type=search] {
 }
 
 .form-group {
-    margin-bottom: 15px
+    margin-bottom: 2rem;
 }
 
 .checkbox,
@@ -7682,7 +7680,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #000;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px

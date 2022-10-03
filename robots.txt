@@ -1,0 +1,3 @@
+# Rule 1 : allow Googlebot
+User-agent : Googlebot
+Disallow: /

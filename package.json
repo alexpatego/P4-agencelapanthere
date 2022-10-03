@@ -4,11 +4,20 @@
   "description": "seo website ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "postcss style.css -u autoprefixer cssnano -r",
+    "bootstrap": "postcss ./css/bootstrap.css -u autoprefixer cssnano -r",
+    "font":"postcss ./css/et-line.css -u autoprefixer cssnano -r",
+    "fontawesome": "postcss ./css/font-awesome.css -u autoprefixer cssnano -r"
   },
   "author": "Alexandre Patego",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "cssnano": "^5.1.13",
+    "postcss": "^8.4.17",
+    "postcss-cli": "^10.0.0"
   }
 }
